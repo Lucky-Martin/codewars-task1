@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+a, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+header {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+/* End header */
+
+/* Home */
+
+#home {
+    height: 100vh;
+    background: url(../img/background.png) no-repeat center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home .text_container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#home .text_content {
+    text-align: right;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+#home img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* End home */
+
+/* Skills */
+
+#skills .title {
+    text-align: center;
+    margin: 20px 0;
+}
+#skills .skill {
+    text-align: center;
+    margin: 15px 0;
+}
+#skills .skill img {
+    max-width: 172px;
+    margin-bottom: 10px;
+}
+
+/* End skills */
